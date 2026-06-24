@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Memories</title>
+  <!-- Bootstrap & AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="floating-hearts-bg"></div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html#hero"><i class="fa-solid fa-heart-pulse"></i> Forever Us</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="you.html">You</a></li>
+          <li class="nav-item"><a class="nav-link" href="story.html#story">Our Story</a></li>
+          <li class="nav-item"><a class="nav-link active" href="memories.html#gallery">Memories</a></li>
+          <li class="nav-item"><a class="nav-link" href="letter.html#letter">Letter</a></li>
+          <li class="nav-item"><a class="nav-link" href="finale.html#finale">Finale</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main style="padding-top: 100px; overflow-x: hidden;">
+    <!-- ============ SECTION 6: MEMORY GALLERY ============ -->
+    <section id="gallery" class="section gallery-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Our Beautiful Memories <i class="fa-solid fa-images"></i></h2>
+        <div class="row g-4" id="memory-gallery">
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/image1.jpg" alt="Memory 1" class="memory-img edit-me" data-edit="mem1-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem1-shayari">"Teri mohabbat meri taaqat hai,<br>Tera saath meri sabse khoobsurat aadat hai. ❤️🌹"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem1-song">Bairan — Sumit & Anuj</span>
+                  <button class="play-mini" data-song="music/song1.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem1-desc">Every picture with you tells a story of love, laughter, and togetherness. Through every smile. You are not just my wife; you are my home, my happiness, and the most precious blessing of my life. ❤️✨</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/image2.jpg" alt="Memory 2" class="memory-img edit-me" data-edit="mem2-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem2-shayari">"Kal tak sirf ek khwaab tha tu,<br> meri zindagi ki sabse khoobsurat haqeeqat hai. ❤️💍"❤️"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem2-song">Me Hu Sath Tere — Arijit Singh</span>
+                  <button class="play-mini" data-song="music/song2.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem2-desc">"The day after our wedding was more than just another sunrise—it was the beginning of a lifetime together. With love in our hearts and dreams in our eyes, we stepped into this beautiful journey as husband and wife, promising to cherish, support 🌹✨"</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/image3.jpg" alt="Memory 3" class="memory-img edit-me" data-edit="mem3-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem3-shayari">"Tera saath mila toh zindagi haseen ban gayi,<BR>Har tasveer mein meri poori duniya samet gayi. ❤️🌹❤️"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem3-song">Tum Ho To Subah Nai He — Vishal Mishra</span>
+                  <button class="play-mini" data-song="music/song3.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem3-desc">Every photograph with you holds a thousand emotions that words can never fully describe. Through every smile, every embrace, and every shared moment, you have turned my life into a beautiful journey of love,❤️✨"</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/image4.jpg" alt="Memory 4" class="memory-img edit-me" data-edit="mem4-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem4-shayari">"Tera saath meri sabse badi daulat hai,<br>Tu meri duaon ki sabse khoobsurat inaayat hai. ❤️🌹"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem4-song">Tere Liye Mandir Jao — Ravzz Musica</span>
+                  <button class="play-mini" data-song="music/song4.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem4-desc">Some memories don't need grand occasions to become special. Just being together, sharing smiles, and creating beautiful moments side by side is enough to make life extraordinary ❤️✨"</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/image5.jpg" alt="Memory 5" class="memory-img edit-me" data-edit="mem5-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem5-shayari">"Saat pheron ke saath jo bandhan juda tha,<br>Har janam mein bas tera hi saath likha tha. ❤️🕉️🌺"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem5-song">Kitab Likhunga — Mr Dutt & Vipin Foji</span>
+                  <button class="play-mini" data-song="music/song5.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem5-desc">""The sacred fire witnessed our vows, and with every phera, we promised to walk through life's joys and challenges together. This beautiful day marked the beginning of our forever ❤️💍✨"".</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card memory-card tilt-card">
+              <div class="memory-img-wrap">
+                <img src="media/queen.jpg" alt="Memory 6" class="memory-img edit-me" data-edit="mem6-img">
+              </div>
+              <div class="memory-body">
+                <p class="shayari edit-me" data-edit="mem6-shayari">"Tere saath har khwaab sach sa lagta hai,<br>Har dua ka sabse khoobsurat jawaab tu lagta hai. ❤️🌹"</p>
+                <div class="memory-song">
+                  <i class="fa-solid fa-music"></i>
+                  <span class="edit-me" data-edit="mem6-song">Aap Ka Ye Kahna Banta — Sheheryer Rehan </span>
+                  <button class="play-mini" data-song="music/song6.mp3"><i class="fa-solid fa-play"></i></button>
+                </div>
+                <p class="memory-desc edit-me" data-edit="mem6-desc">Some moments become unforgettable not because of where we were, but because of who we were with. With you, every conversation turns into a cherished memory and every dream feels possible. ❤️✨</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <audio id="audioPlayer"></audio>
+
+    <!-- ============ SECTION 7: MUSIC PLAYER ============ -->
+    <section id="music" class="section music-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Our Favorite Songs <i class="fa-solid fa-headphones-simple"></i></h2>
+        <div class="glass-card music-player-card mx-auto" data-aos="zoom-in" style="max-width: 600px;">
+          <div class="player-disc-wrap">
+            <div class="player-disc" id="player-disc">
+              <img id="player-cover" src="media/cover.png" alt="Song cover">
+              <div class="disc-hole"></div>
+            </div>
+          </div>
+          <div class="player-info text-center mt-4">
+            <h4 id="player-title">Koi Itna Khubsurat</h4>
+            <p id="player-artist">Arijit Singh</p>
+            <div class="player-progress-wrap mt-3">
+              <span id="player-current">0:00</span>
+              <input type="range" id="player-progress" value="0" min="0" max="100" class="player-progress">
+              <span id="player-duration">0:00</span>
+            </div>
+            <div class="player-controls mt-3">
+              <button id="player-prev"><i class="fa-solid fa-backward-step"></i></button>
+              <button id="player-play" class="play-main"><i class="fa-solid fa-play"></i></button>
+              <button id="player-next"><i class="fa-solid fa-forward-step"></i></button>
+            </div>
+            <div class="player-volume-wrap mt-3">
+              <i class="fa-solid fa-volume-low"></i>
+              <input type="range" id="player-volume" min="0" max="1" step="0.01" value="0.5" class="player-volume">
+            </div>
+          </div>
+          <audio id="player-audio">
+            <source src="media/song.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ============ SECTION 8: REASONS I LOVE YOU ============ -->
+    <section id="reasons" class="section reasons-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-4" data-aos="fade-up">20 Reasons I Love You <i class="fa-solid fa-heart"></i></h2>
+        <p class="section-subtitle text-center mb-5" data-aos="fade-up">Tap each card to reveal a reason</p>
+        <div class="row g-3" id="reasons-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 9: RELATIONSHIP COUNTER ============ -->
+    <section id="counter" class="section counter-section py-5">
+      <div class="container text-center">
+        <h2 class="section-title mb-4" data-aos="fade-up">Together For <i class="fa-solid fa-clock"></i></h2>
+        <p class="section-subtitle mb-5" data-aos="fade-up">Since <span class="edit-me" data-edit="relationship-date">15th May 2023</span></p>
+        <div class="row g-3 counter-grid" data-aos="zoom-in">
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-years">0</span>
+              <span class="counter-label">Years</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-months">0</span>
+              <span class="counter-label">Months</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-days">0</span>
+              <span class="counter-label">Days</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-hours">0</span>
+              <span class="counter-label">Hours</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-minutes">0</span>
+              <span class="counter-label">Minutes</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2">
+            <div class="glass-card counter-box">
+              <span class="counter-num" id="c-seconds">0</span>
+              <span class="counter-label">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 10: QUOTES SLIDER ============ -->
+    <section id="quotes" class="section quotes-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Words From The Heart <i class="fa-solid fa-quote-left"></i></h2>
+        <div class="quotes-slider glass-card mx-auto" data-aos="fade-up" style="max-width: 800px;">
+          <div class="quotes-track" id="quotes-track">
+            <div class="quote-slide active">
+              <p class="quote-text">❤️👑🌹✨ You are my favorite chapter in the story of life...❤️"</p>
+            </div>
+            <div class="quote-slide">
+              <p class="quote-text">"🤍🏡💍🌷 In your arms, I found my peace..."</p>
+            </div>
+            <div class="quote-slide">
+              <p class="quote-text">"❤️🌺🦋✨ Teri muskaan meri duniya ki sabse pyari roshni hai...❤️"</p>
+            </div>
+            <div class="quote-slide">
+              <p class="quote-text">"💕⏳🌹👑 No matter how many years pass..."</p>
+            </div>
+            <div class="quote-slide">
+              <p class="quote-text">"❤️🙏💍🌷✨Tumse mil ke lagta hai jaise duniya badal gayi,<br>Har raat ek nayi kahani, har subah pyaar nayi ❤️"</p>
+            </div>
+          </div>
+          <div class="quotes-dots" id="quotes-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 11: 3D PHOTO CAROUSEL ============ -->
+    <section id="carousel3d" class="section carousel3d-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Picture Perfect <i class="fa-solid fa-camera"></i></h2>
+        <div class="carousel-3d-wrap mx-auto" data-aos="zoom-in">
+          <div class="carousel-3d" id="carousel-3d">
+            <div class="carousel-item-3d"><img src="media/photo1.png" alt="Photo 1"></div>
+            <div class="carousel-item-3d"><img src="media/photo2.jpg" alt="Photo 2"></div>
+            <div class="carousel-item-3d"><img src="media/photo3.jpg" alt="Photo 3"></div>
+            <div class="carousel-item-3d"><img src="media/photo4.jpg" alt="Photo 4"></div>
+            <div class="carousel-item-3d"><img src="media/photo5.jpg" alt="Photo 5"></div>
+            <div class="carousel-item-3d"><img src="media/photo6.jpg" alt="Photo 6"></div>
+            <div class="carousel-item-3d"><img src="media/photo7.jpg" alt="Photo 7"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 12: VIDEO MEMORIES ============ -->
+    <section id="videos" class="section videos-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Video Memories <i class="fa-solid fa-video"></i></h2>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="glass-card video-card" data-video="media/video1.mp4">
+              <img src="media/image6.jpg" alt="Video 1">
+              <div class="video-play-overlay"><i class="fa-solid fa-play"></i></div>
+              <p class="video-caption edit-me" data-edit="vid1-caption">My🥰Love💕My🤗Jaan❤️</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card video-card" data-video="media/video2.mp4">
+              <img src="media/image3.jpg" alt="Video 2">
+              <div class="video-play-overlay"><i class="fa-solid fa-play"></i></div>
+              <p class="video-caption edit-me" data-edit="vid2-caption">Birthday Surprise Party</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card video-card" data-video="media/video3.mp4">
+              <img src="media/image4.jpg" alt="Video 3">
+              <div class="video-play-overlay"><i class="fa-solid fa-play"></i></div>
+              <p class="video-caption edit-me" data-edit="vid3-caption">Dancing In The Rain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 13: WISHES WALL ============ -->
+    <section id="wishes" class="section wishes-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Wishes Wall <i class="fa-solid fa-wand-magic-sparkles"></i></h2>
+        <div class="row g-4" id="wishes-grid">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-cake-candles wish-icon"></i>
+              <p>"Tum meri zindagi ki sabse khoobsurat dua ho. Is birthday par meri bas itni si dua hai ki tum hamesha yunhi muskuraati raho aur har khushi tumhare kadam choome. Happy Birthday, meri wife, meri jaan. ❤️🎂💍🌺✨"</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-star wish-icon"></i>
+              <p>Tumne meri zindagi ko pyaar aur muskurahat se bhar diya hai. Bhagwan kare tumhara har din isi tarah roshan aur khushiyon se bhara rahe. Happy Birthday, meri queen. ❤️👑🎉🌺</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-dove wish-icon"></i>
+              <p>Tumne meri zindagi ko pyaar aur muskurahat se bhar diya hai. Bhagwan kare tumhara har din isi tarah roshan aur khushiyon se bhara rahe. Happy Birthday, meri queen. ❤️👑🎉🌺</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-gift wish-icon"></i>
+              <p>Meri har dua mein tum ho, meri har khushi ka wajah tum ho. Is khaas din par bas itna kehna hai — Happy Birthday, meri wife, meri humsafar. ❤️💍🎂🌷</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-sun wish-icon"></i>
+              <p>Tumhari muskaan meri duniya ki sabse khoobsurat cheez hai. Aaj aur hamesha tum yunhi hansti raho, yahi meri sabse badi dua hai. Happy Birthday, meri jaan. ❤️🌸✨🎂</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card wish-card">
+              <i class="fa-solid fa-ring wish-icon"></i>
+              <p>Tum meri zindagi ki sabse khoobsurat dua ho. Is birthday par meri bas itni si dua hai ki tum hamesha yunhi muskuraati raho aur har khushi tumhare kadam choome. Happy Birthday, meri wife, meri jaan. ❤️🎂💍🌺✨</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 14: FUTURE DREAMS ============ -->
+    <section id="dreams" class="section dreams-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">Our Future Dreams <i class="fa-solid fa-route"></i></h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="glass-card dream-card">
+              <img src="media/home.jpg" alt="Our Home">
+              <h5>Our Own Home ❤️</h5>
+              <p>A cozy little place that's truly ours, filled with love and memories.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card dream-card">
+              <img src="media/family.jpg" alt="Family">
+              <h5>Happy Family ❤️</h5>
+              <p>A happy family filled with love, laughter, and beautiful memories.</p>
+            </div>
+          </div>
+           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="glass-card dream-card">
+              <img src="media/world_tour.jpg" alt="Paris">
+              <h5>World Tour ❤️</h5>
+              <p>World Tour With My Love ❤️🌹Exploring the world together, creating unforgettable memories.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="glass-card dream-card">
+              <img src="media/elderly_couple.jpg" alt="Switzerland">
+              <h5>Golden Years ❤️</h5>
+              <p>Spending our golden years together, filled with love and cherished memories.First To Last With You ❤️</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 15: SURPRISE GIFT BOX ============ -->
+    <section id="giftbox" class="section giftbox-section py-5">
+      <div class="container text-center">
+        <h2 class="section-title mb-4" data-aos="fade-up">A Little Surprise For You <i class="fa-solid fa-gift"></i></h2>
+        <p class="section-subtitle mb-5" data-aos="fade-up">Tap the box to open it</p>
+        <div class="gift-box-wrap mx-auto" data-aos="zoom-in" style="width: 200px;">
+          <div class="gift-box" id="gift-box">
+            <div class="gift-box-lid"></div>
+            <div class="gift-box-base"></div>
+            <div class="gift-box-ribbon-v"></div>
+            <div class="gift-box-ribbon-h"></div>
+            <div class="gift-box-bow"><i class="fa-solid fa-bow-arrow"></i></div>
+          </div>
+          <div class="gift-message" id="gift-message">
+            <h3>Surprise! <i class="fa-solid fa-heart"></i></h3>
+            <p>You are the most beautiful blessing life has ever given me. Every moment spent with you feels like a precious gift, and I promise to love, cherish, and stand by your side forever. ❤️💍🌹✨</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 16: LOVE QUIZ ============ -->
+    <section id="quiz" class="section quiz-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">How Well Do You Know Us? <i class="fa-solid fa-circle-question"></i></h2>
+        <div class="glass-card quiz-card mx-auto" data-aos="zoom-in" style="max-width: 700px;">
+          <div id="quiz-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION 18: INTERACTIVE BIRTHDAY CAKE ============ -->
+    <section id="cake" class="section cake-section py-5">
+      <div class="container text-center">
+        <h2 class="section-title mb-4" data-aos="fade-up">Make A Wish <i class="fa-solid fa-cake-candles"></i></h2>
+        <p class="section-subtitle mb-5" data-aos="fade-up">Click the cake to blow out the candles</p>
+        <div class="cake-wrap mx-auto" data-aos="zoom-in">
+          <div class="cake" id="cake">
+            <div class="cake-plate"></div>
+            <div class="cake-layer cake-bottom"></div>
+            <div class="cake-layer cake-middle"></div>
+            <div class="cake-layer cake-top"></div>
+            <div class="cake-drip cake-drip-1"></div>
+            <div class="cake-drip cake-drip-2"></div>
+            <div class="cake-drip cake-drip-3"></div>
+            <div class="candle candle-1"><div class="flame"></div></div>
+            <div class="candle candle-2"><div class="flame"></div></div>
+            <div class="candle candle-3"><div class="flame"></div></div>
+            <div class="candle candle-4"><div class="flame"></div></div>
+            <div class="candle candle-5"><div class="flame"></div></div>
+          </div>
+        </div>
+        <div class="cake-big-message mt-5" id="cake-big-message" style="display: none;">
+          <h1>HAPPY BIRTHDAY MY LOVE <i class="fa-solid fa-heart"></i></h1>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="finale-footer text-center py-4">
+    <p>Made with <i class="fa-solid fa-heart"></i> just for you</p>
+  </footer>
+
+  <!-- Modals & Overlays -->
+  <div class="video-lightbox" id="video-lightbox">
+    <div class="video-lightbox-content">
+      <button class="video-lightbox-close" id="video-lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="video-lightbox-frame">
+        <iframe id="video-iframe" src="" title="Video memory" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="celebration-overlay" id="celebration-overlay">
+    <canvas id="overlay-fireworks"></canvas>
+    <div class="overlay-confetti" id="overlay-confetti"></div>
+    <div class="overlay-balloons" id="overlay-balloons"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
